@@ -1,0 +1,14 @@
+		<div class="container">
+			<div class="row pull-right">
+				<div class="navbar">
+
+				</div>
+			</div>
+		</div>
+
+		{{if eq .RunMode "dev"}}
+			{{template "debug.html" .}}
+		{{end}}
+	</body>
+</html>
+
